@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local data
+*.db
+
+# Node
+node_modules/
+
+# Terraform and Kubernetes credentials
+*.tfstate*
+.terraform/
+kubeconfig*
+
+# Claude Code local settings
+.claude/settings.local.json
