@@ -21,3 +21,6 @@ kubeconfig*
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Private prompt pack (local only)
+docs/devpilot-prompts.md
